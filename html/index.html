@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOBILE WEATHER APP</title>
+    <meta name="description" content="Built first for mobile">
+    <script src="https://kit.fontawesome.com/f5c57ebf37.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style/"> -->
+    <link rel="stylesheet" href="../style/mobile.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper p-3">
+
+            <form action="" id="search-form" class="form-control">
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <input type="search" name="city-input" id="city-input" class="form-control w-100 mb-3"
+                            placeholder="search weather here">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="submit" value="Search City" name="search" id="submit-search-btn"
+                            class="form-control btn btn-danger mb-3 w-100">
+                    </div>
+                </div>
+            </form>
+            <div class="row" id="city-header">
+                <div class="col-md-6">
+                    <h1 id="city-searched-for">NAME OF CITY SEARCHED</h1>
+                </div>
+                <div class="col-md-6">
+                    <h1 id="city-time-info">
+                        8.20 a:m
+                    </h1>
+                </div>
+            </div>
+            <!-- SEARCHED WEATHER-INFO -->
+            <div class="row city-searched-weather-info">
+                <div class="col-md-12">
+                    <h6>Temperature : <span id="searched-city-time">35 C</span></h6>
+                </div>
+                <div class="col-md-12">
+                    <h6>Humidity : <span id="searched-city-humidity">30%</span>
+                    </h6>
+                </div>
+                <div class="col-md-6">
+                    <h6>
+                        Windspeed : <span id="searched-city-wspeed">5mph</span>
+                    </h6>
+                </div>
+                <div class="col-md-6">
+                    <h6>Weather Description : <span id="searched-city-description">Sunny day</span></h6>
+                </div>
+                <div class="col-md-6">
+                    <img src="" alt="">🌦️🌦️
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+    </div>
+
+
+    <script src="../script/mobile.js"></script>
+</body>
+
+</html>

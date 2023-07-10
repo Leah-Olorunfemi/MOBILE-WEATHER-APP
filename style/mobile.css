@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(16, 166, 253);
+}
+
+.container {
+  background-color: palevioletred;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.wrapper {
+  /* background-color: rgb(163, 248, 135); */
+  border: 4px black solid;
+}
