@@ -12,9 +12,27 @@ function formatDay() {
     "Saturday",
   ];
 
+  let currentMonth = new Month();
+  let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
   let day = [currentDate.getDay()];
   let date = [currentDate.getDate()];
-  return `${day}`;
+  let month = [currentDate.getMonth()];
+  let year = [currentDate.getYear()];
+  return `${day} ${month} ${year}`;
 
   //   console.log(day);
 }
